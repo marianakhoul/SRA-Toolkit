@@ -30,3 +30,8 @@ export PATH=$PATH:/location/of/sratoolkit.<release>-<platform>/bin
  ```
  fastq-dump --split-files $SRA_ACCESSION_ID
  ```
+ 3. Download fastq and zip it (fastq.gz)
+ ```
+ fastq-dump --gunzip $SRA_ACCESSION_ID
+ ```
+ 
