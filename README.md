@@ -5,6 +5,10 @@ How to download SRA toolkit and commands to download data
 ```
 curl -OL sratoolkit.tar.gz http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-mac64.tar.gz
 ```
+ Download the toolkit for Ubuntu
+```
+wget --output-document sratoolkit.tar.gz http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+```
 2. Unzip the toolkit
 ```
 tar vxzf sratoolkit.tar.gz
