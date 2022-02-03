@@ -46,3 +46,5 @@ Example of sratoolkit.<release>-<platform> could be sratoolkit.2.4.0-1-mac64
  ```
  sam-dump --aligned-region chr20 $SRA_ACCESSION_ID | samtools view -bS - > /path/to/$SRA_ACCESSION_ID.bam
  ```
+ ### Notes
+ More information on command arguments and commands can be found [here](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc)
