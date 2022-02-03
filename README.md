@@ -20,3 +20,13 @@ export PATH=$PATH:/location/of/sratoolkit.<release>-<platform>/bin
 ```
 4. [Configure](https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration) the tool based on your use case.
 5. Run commands.
+
+ ## Commands
+ 1. Download fastq file with both reads in the same file
+ ```
+ fastq-dump $SRA_ACCESSION_ID
+ ```
+ 2. Download fastq files with reads in separate files
+ ```
+ fastq-dump --split-files $SRA_ACCESSION_ID
+ ```
