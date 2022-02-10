@@ -36,11 +36,11 @@ Example of sratoolkit.<release>-<platform> could be sratoolkit.2.4.0-1-mac64
  ```
  4. Download sam file
  ```
-  sam-dump $SRA_ACCESSION_ID
+  sam-dump $SRA_ACCESSION_ID > $SRA_ACCESSION_ID.sam
  ```
  5. Download sam with reads mapped to specific chromosome
  ```
- sam-dump --aligned-region chr20 $SRA_ACCESSION_ID
+ sam-dump --aligned-region chr20 $SRA_ACCESSION_ID > $SRA_ACCESSION_ID.sam
  ```
 5. Download bam file (needs samtools)
  ```
